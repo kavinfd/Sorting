@@ -16,3 +16,20 @@ Classification of Sorting Algorithms :
 	    iv  - merging
 	8. Serial or Parallel
 	9. Adaptability - ex,. whether presorted input affects the performance of algorithm
+
+Stability :
+
+    Naive definition:
+        1. When sorting data with repeated elements, element that first occurs in the original list will come first after sorting
+
+    Why its important ?
+        Note - Repeated element is a vague definition. It should be phrased as element with same sorting key
+
+        Same sorting key doesn't mean that the original item is same -> Then in certain cases stability becomes important
+
+    Proper Definition:
+
+        When sorting some kinds of data, only part of the data is examined when determining the sort order.
+        This allows the possibility of multiple different correctly sorted versions of the original list.
+        Stable sorting algorithms choose one of these, by preserving the relative order
+
