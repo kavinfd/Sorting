@@ -46,3 +46,12 @@ Possibility of making an unstable algorithm into a stable one:
     so that comparisons between two objects with otherwise equal keys are decided
     using the order of the entries in the original input list as a tie-breaker.
     Remembering this order, however, may require additional time and space.
+
+One application of stable sort:
+    sorting a list using a primary and secondary key.
+    For example, suppose we wish to sort a hand of cards s
+    uch that the suits are in the order clubs (♣), diamonds (♦), hearts (♥), spades (♠),
+    and within each suit, the cards are sorted by rank.
+    This can be done by first sorting the cards by rank (using any sort), and then doing a stable sort by suit
+
+    
