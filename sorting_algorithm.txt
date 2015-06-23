@@ -35,3 +35,7 @@ Stability :
 
 Key :
     The part of the data used to compare.
+
+When stability doesn't matters ?
+    when elements with same keys becomes indistinguishable or any data where the entire element is key 
+    then stability doesn't matters
