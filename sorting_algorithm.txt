@@ -37,5 +37,12 @@ Key :
     The part of the data used to compare.
 
 When stability doesn't matters ?
-    when elements with same keys becomes indistinguishable or any data where the entire element is key 
+    when elements with same keys becomes indistinguishable or any data where the entire element is key
     then stability doesn't matters
+
+Possibility of making an unstable algorithm into a stable one:
+    Unstable sorting algorithms can be specially implemented to be stable.
+    One way of doing this is to artificially extend the key comparison,
+    so that comparisons between two objects with otherwise equal keys are decided
+    using the order of the entries in the original input list as a tie-breaker.
+    Remembering this order, however, may require additional time and space.
