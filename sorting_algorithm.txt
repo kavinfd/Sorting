@@ -33,3 +33,5 @@ Stability :
         This allows the possibility of multiple different correctly sorted versions of the original list.
         Stable sorting algorithms choose one of these, by preserving the relative order
 
+Key :
+    The part of the data used to compare.
