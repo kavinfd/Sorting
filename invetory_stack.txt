@@ -1,0 +1,6 @@
+==> unresolved ## resolved
+
+==> serial sort
+==> parallel sort
+## why some times O(log n) space taking algorithms called inplace
+    1 - quick sort takes O(log n) stack space while recursion but it is actually accepted as an inplace algorithm

@@ -1,3 +1,18 @@
 A sorting algorithm is an algorithm that puts elements of a list in a certain order. 
 The most-used orders are numerical order and lexicographical order. 
 Efficient sorting is important for optimizing the use of other algorithms (such as search and merge algorithms) which require input data to be in sorted lists
+
+Classification of Sorting Algorithms :
+	1. Computational complexity of element comparision
+	2. Computational complexity of swaps - inplace algorithms
+	3. Memory usage of algorithms whether inplace i.e need only constant space of O(1).
+	4. Recursion Nature of the algorithm
+	5. Stable sort or not
+	6. Comparison sort or not
+	7. Method of sorting
+	    i   - insertion
+	    ii  - exchange ["bubble sort", "quick sort", ..]
+	    iii - selection ["shaker sort", "heap sort", ..]
+	    iv  - merging
+	8. Serial or Parallel
+	9. Adaptability - ex,. whether presorted input affects the performance of algorithm
