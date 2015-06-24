@@ -2,3 +2,7 @@
 
 ## why some times O(log n) space taking algorithms called inplace
     1 - quick sort takes O(log n) stack space while recursion but it is actually accepted as an inplace algorithm
+
+## Algorithms that are considered inplace
+    1 - requiring small additional amounts of memory to perform the sorting. and results in sorted array being in its
+        original place
